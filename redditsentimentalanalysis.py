@@ -12,8 +12,8 @@ import praw
 from nltk.corpus import stopwords
 
 
-reddit = praw.Reddit(client_id='Kc-VAYjEwxUIew',
-                     client_secret='gqt3JE7LmbXOq-e_irmTprc6s_0',
+reddit = praw.Reddit(client_id='',
+                     client_secret='',
                      user_agent='Bshreyas01')
 sns.set(style='darkgrid', context='talk', palette='Dark2')
 headlines = set()
